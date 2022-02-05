@@ -11564,3 +11564,36 @@ html {
   flex-direction: column;
   align-items:unset
 }
+
+.portfolio-item {
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 577.76px; 
+}
+
+.portfolio-item div a {
+  text-decoration: none !important;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item div {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-item div div p {
+    margin-bottom: 0 !important;
+  }
+}
+
+.portfolio-item-1 {
+  background: url("/assets/img/item-1-bg.jpg") no-repeat;
+}
+
+.portfolio-item-2 {
+  background: url("/assets/img/portfolio/cabin.png") no-repeat;
+}
