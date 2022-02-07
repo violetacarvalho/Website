@@ -11591,9 +11591,9 @@ html {
 }
 
 .portfolio-item-1 {
-  background: url("/assets/img/item-1-bg.jpg") no-repeat;
+  background: url("/assets/item-1-bg.jpg") no-repeat;
 }
 
 .portfolio-item-2 {
-  background: url("/assets/img/portfolio/cabin.png") no-repeat;
+  background: url("/assets/cabin.png") no-repeat;
 }
